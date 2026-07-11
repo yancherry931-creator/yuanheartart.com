@@ -4,84 +4,84 @@ const products = [
     price: "From $198.75",
     reviews: "12 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/il_NxN.4804146086_c2bq.jpg?v=1711269337&width=1200",
+      "/art/p01.jpg",
   },
   {
     title: "Beige & Brown Minimalist Painting #BBM 002",
     price: "From $386.25",
     reviews: "13 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/il_NxN.5185831150_ljf9.jpg?v=1713226159&width=1140",
+      "/art/p02.jpg",
   },
   {
     title: "Blue & Green Minimalist Abstract Painting #BGM 012",
     price: "From $198.75",
     reviews: "8 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/il_NxN.5490919830_qw38.jpg?v=1711271762&width=1200",
+      "/art/p03.jpg",
   },
   {
     title: "Blue & Green Abstract Painting #CXA 017",
     price: "From $198.75",
     reviews: "30 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/4_f559f115-37df-4683-accb-320f3eb21e0e.jpg?v=1703916996&width=1200",
+      "/art/p04.jpg",
   },
   {
     title: "Textured Ocean Wave Art 3D Oil Painting #BBS 011",
     price: "From $261.25",
     reviews: "3 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/IMG_202310195_82eee589-fa93-4071-b268-aeb0f8aafd66.jpg?v=1724429577&width=1200",
+      "/art/p05.jpg",
   },
   {
     title: "Golden Blossom Tree Art - Textured Wall Decor #BGM 010",
     price: "From $198.75",
     reviews: "17 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/il_NxN.5318381706_k3mp.jpg?v=1735358435&width=1200",
+      "/art/p06.jpg",
   },
   {
     title: "Vibrant Tree Landscape Wall Art #LL 0409",
     price: "From $198.75",
     reviews: "33 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/1_efb1aef7-d6a2-46c5-8057-4882bfa2d7e7.jpg?v=1706751383&width=1200",
+      "/art/p07.jpg",
   },
   {
     title: "Beige Minimalist Abstract Painting #AVG 003",
     price: "From $198.75",
     reviews: "36 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/001_06cd7fba-7ca0-48fb-9637-72bd4519099c.jpg?v=1738894857&width=1140",
+      "/art/p08.jpg",
   },
   {
     title: "Black & White Abstract Painting SET OF 2 #AVG 012",
     price: "From $261.25",
     reviews: "24 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/2p5_7c7629fb-d139-4f17-947b-8d53dbd1f4d7.jpg?v=1705761056&width=1200",
+      "/art/p09.jpg",
   },
   {
     title: "Large Black & White Abstract Textured Canvas Art #BM 092",
     price: "From $198.75",
     reviews: "4 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/IMG_202205092_7a672abb-e74e-46f5-8495-9a0feb93f6c8.jpg?v=1729747295&width=1200",
+      "/art/p10.jpg",
   },
   {
     title: "Black & White Abstract Painting SET OF 2 #CXA 013",
     price: "From $261.25",
     reviews: "11 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/2p5_0b8697c4-edfd-4426-9609-9340f959d7e6.jpg?v=1703829908&width=1200",
+      "/art/p11.jpg",
   },
   {
     title: "Blue & Green Minimalist Abstract Painting #BGM 007",
     price: "From $198.75",
     reviews: "7 reviews",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/il_NxN.4978874082_hp5l.jpg?v=1711264130&width=1200",
+      "/art/p12.jpg",
   },
 ];
 
@@ -117,7 +117,7 @@ const stories = [
     copy:
       "I could not wait to unbox this artwork. The soft beige floral pattern pairs beautifully with my modern minimalist space and adds warmth to our home.",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/preview_images/2d0001e87f614388a25fb5ec7e71862e.thumbnail.0000000000_1100x.jpg?v=1782371784",
+      "/art/r01.jpg",
   },
   {
     name: "Chloe Pearl",
@@ -126,7 +126,7 @@ const stories = [
     copy:
       "The colors are gorgeous and the brushstrokes are clearly visible. The warm pink tones make the room feel full of spring.",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/preview_images/fb91cf28d00c40ab8b18f9e106938b2e.thumbnail.0000000000_1100x.jpg?v=1782204094",
+      "/art/r02.jpg",
   },
   {
     name: "Arthur",
@@ -135,7 +135,7 @@ const stories = [
     copy:
       "Shipping was fast and the wave texture is stunning. It matches my living room perfectly and feels carefully handmade.",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/preview_images/cd1a8f2d00e2430fa2ef8b9dc0e2672d.thumbnail.0000000000_1100x.jpg?v=1782287554",
+      "/art/r03.jpg",
   },
   {
     name: "Mia Grace",
@@ -144,7 +144,7 @@ const stories = [
     copy:
       "The soothing beige tones and abstract mountain design fill the room with a calm, elegant atmosphere.",
     image:
-      "https://www.artvistagallery.com/cdn/shop/files/preview_images/71e693517ca148eab37b3a2a557d1153.thumbnail.0000000000_1100x.jpg?v=1782285709",
+      "/art/r04.jpg",
   },
 ];
 
@@ -199,15 +199,15 @@ export default function Home() {
         </div>
         <div className="hero-gallery" aria-label="Featured artworks">
           <img
-            src="https://www.artvistagallery.com/cdn/shop/files/il_NxN.4804146086_c2bq.jpg?v=1711269337&width=1200"
+            src="/art/p01.jpg"
             alt="Vibrant abstract fish movement painting"
           />
           <img
-            src="https://www.artvistagallery.com/cdn/shop/files/001_06cd7fba-7ca0-48fb-9637-72bd4519099c.jpg?v=1738894857&width=1140"
+            src="/art/p08.jpg"
             alt="Beige wabi sabi minimalist wall sculpture"
           />
           <img
-            src="https://www.artvistagallery.com/cdn/shop/files/2p5_7c7629fb-d139-4f17-947b-8d53dbd1f4d7.jpg?v=1705761056&width=1200"
+            src="/art/p09.jpg"
             alt="Black and white abstract painting set"
           />
         </div>
@@ -267,14 +267,14 @@ export default function Home() {
           </p>
         </div>
         <img
-          src="https://www.artvistagallery.com/cdn/shop/files/WX20240225-223601_2x_31259b96-d30c-4d30-887e-0d2ba25571ab.png?v=1708871899&width=1352"
+          src="/art/popular.png"
           alt="Minimalist artwork displayed in a modern room"
         />
       </section>
 
       <section className="story section" id="story">
         <img
-          src="https://www.artvistagallery.com/cdn/shop/files/painter_imm.jpg?v=1703848598&width=900"
+          src="/art/artist.jpg"
           alt="Artist working on a canvas"
         />
         <div>
