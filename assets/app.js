@@ -410,7 +410,8 @@ const YH_PRODUCTS = [
     production: "12-18 business days",
     shipping: "7-12 business days",
     format: "Rolled canvas or framed",
-    image: "https://images.unsplash.com/photo-1578926375605-eaf7559b1458?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1578926375605-eaf7559b1458?auto=format&fit=crop&w=900&q=82",
+    url: "quiet-neutral-abstract-oil-painting.html"
   },
   {
     id: "yh-tex-002",
@@ -427,7 +428,8 @@ const YH_PRODUCTS = [
     production: "15-22 business days",
     shipping: "7-14 business days",
     format: "Gallery wrapped or framed",
-    image: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=900&q=82",
+    url: "textured-earth-tone-canvas.html"
   },
   {
     id: "yh-land-003",
@@ -444,7 +446,8 @@ const YH_PRODUCTS = [
     production: "12-20 business days",
     shipping: "7-12 business days",
     format: "Rolled canvas",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=82",
+    url: "soft-landscape-commission.html"
   },
   {
     id: "yh-floral-004",
@@ -461,7 +464,8 @@ const YH_PRODUCTS = [
     production: "Ready to ship",
     shipping: "7-10 business days",
     format: "Framed & ready to hang",
-    image: "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=82",
+    url: "botanical-floral-oil-painting.html"
   },
   {
     id: "yh-large-005",
@@ -478,7 +482,8 @@ const YH_PRODUCTS = [
     production: "18-28 business days",
     shipping: "10-18 business days",
     format: "Rolled canvas or framed",
-    image: "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=82",
+    url: "large-wall-art-triptych.html"
   },
   {
     id: "yh-port-006",
@@ -495,7 +500,8 @@ const YH_PRODUCTS = [
     production: "12-21 business days",
     shipping: "7-12 business days",
     format: "Rolled canvas or framed",
-    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=82",
+    url: "custom-portrait-from-photo.html"
   },
   {
     id: "yh-min-007",
@@ -512,7 +518,8 @@ const YH_PRODUCTS = [
     production: "12-18 business days",
     shipping: "7-12 business days",
     format: "Rolled canvas",
-    image: "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=900&q=82",
+    url: "minimal-black-white-oil-painting.html"
   },
   {
     id: "yh-hotel-008",
@@ -529,7 +536,8 @@ const YH_PRODUCTS = [
     production: "Quoted by quantity",
     shipping: "Quoted by destination",
     format: "Custom packaging",
-    image: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=82"
+    image: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=82",
+    url: "hospitality-neutral-series.html"
   }
 ];
 
@@ -645,15 +653,16 @@ function renderProductGrid() {
     const saved = wishlist.includes(product.id);
     return `<article class="product-card" data-category="${product.status}">
       <button class="wishlist-toggle ${saved ? "saved" : ""}" type="button" data-wishlist="${product.id}" aria-label="Save ${product.name}">${saved ? "鈾? : "鈾?}</button>
-      <img src="${product.image}" alt="${product.name} shown for ${product.room}" loading="lazy">
+      <a class="product-image-link" href="${product.url}" aria-label="View details for ${product.name}"><img src="${product.image}" alt="${product.name} shown for ${product.room}" loading="lazy"></a>
       <div>
         <span>${product.badge}</span>
-        <h2>${product.name}</h2>
+        <h2><a href="${product.url}">${product.name}</a></h2>
         <p class="product-price">${money(product.price)}</p>
         <div class="product-facts"><span>${product.status}</span><span>${product.sizes.length} sizes</span><span>${product.texture}</span></div>
         <p>${product.style} artwork for ${product.room}. ${product.production}. Preview before shipping.</p>
         <div class="card-actions">
           <button type="button" data-quick-view="${product.id}">Quick View</button>
+          <a class="mini-link secondary-mini" href="${product.url}">View Details</a>
           <button type="button" class="secondary-mini" data-add-cart="${product.id}">Add to Cart</button>
           <a class="mini-link secondary-mini" href="${whatsappUrl(`I need help choosing size for ${product.name}.`, `product:${product.id}`)}" target="_blank" rel="noreferrer" data-whatsapp-source="product_card">Ask Size</a>
           <a class="mini-link secondary-mini" href="${whatsappUrl(`Please quote best price for ${product.name}.`, `offer:${product.id}`)}" target="_blank" rel="noreferrer" data-whatsapp-source="make_offer">Make Offer</a>
