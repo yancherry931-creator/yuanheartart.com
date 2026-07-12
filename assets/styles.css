@@ -1252,6 +1252,87 @@ blockquote {
   padding: clamp(22px, 4vw, 34px);
 }
 
+.payment-methods {
+  display: grid;
+  gap: 10px;
+  border: 0;
+  padding: 0;
+  margin: 14px 0;
+}
+
+.payment-methods legend {
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.payment-option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.48);
+  padding: 14px;
+  cursor: pointer;
+}
+
+.payment-option input {
+  width: auto;
+  margin-top: 4px;
+}
+
+.payment-option strong,
+.payment-option small {
+  display: block;
+}
+
+.payment-option small {
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.security-note {
+  border-left: 3px solid var(--olive);
+  background: rgba(112, 128, 88, 0.08);
+  padding: 12px 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.method-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: clamp(20px, 3vw, 30px);
+}
+
+.method-card span {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.method-card h2 {
+  margin-top: 18px;
+}
+
+.method-card strong {
+  display: block;
+  margin-top: 16px;
+  color: var(--ink);
+}
+
 .checkout-progress {
   display: flex;
   flex-wrap: wrap;
@@ -1446,6 +1527,7 @@ blockquote {
   .collection-grid,
   .timeline-grid,
   .policy-grid,
+  .method-grid,
   .answer-grid,
   .commerce-bar,
   .quick-view-grid,
@@ -1533,6 +1615,7 @@ blockquote {
   .timeline-grid,
   .faq-grid,
   .policy-grid,
+  .method-grid,
   .answer-grid,
   .landing-grid,
   .commerce-bar,
