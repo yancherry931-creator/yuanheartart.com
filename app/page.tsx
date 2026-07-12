@@ -1,5 +1,6 @@
-const products = [
+﻿const products = [
   {
+    slug: "blue-green-minimalist-abstract-painting-bgm-009",
     title: "Blue & Green Minimalist Abstract Painting #BGM 009",
     price: "From $198.75",
     reviews: "12 reviews",
@@ -7,6 +8,7 @@ const products = [
       "/art/p01.jpg",
   },
   {
+    slug: "beige-brown-minimalist-painting-bbm-002",
     title: "Beige & Brown Minimalist Painting #BBM 002",
     price: "From $386.25",
     reviews: "13 reviews",
@@ -14,6 +16,7 @@ const products = [
       "/art/p02.jpg",
   },
   {
+    slug: "blue-green-minimalist-abstract-painting-bgm-012",
     title: "Blue & Green Minimalist Abstract Painting #BGM 012",
     price: "From $198.75",
     reviews: "8 reviews",
@@ -21,6 +24,7 @@ const products = [
       "/art/p03.jpg",
   },
   {
+    slug: "blue-green-abstract-painting-cxa-017",
     title: "Blue & Green Abstract Painting #CXA 017",
     price: "From $198.75",
     reviews: "30 reviews",
@@ -28,6 +32,7 @@ const products = [
       "/art/p04.jpg",
   },
   {
+    slug: "textured-ocean-wave-art-3d-oil-painting-for-modern-home-decor-bbs-011",
     title: "Textured Ocean Wave Art 3D Oil Painting #BBS 011",
     price: "From $261.25",
     reviews: "3 reviews",
@@ -35,6 +40,7 @@ const products = [
       "/art/p05.jpg",
   },
   {
+    slug: "blue-green-minimalist-abstract-painting-bgm-010",
     title: "Golden Blossom Tree Art - Textured Wall Decor #BGM 010",
     price: "From $198.75",
     reviews: "17 reviews",
@@ -42,6 +48,7 @@ const products = [
       "/art/p06.jpg",
   },
   {
+    slug: "beige-brown-abstract-painting-ll-0409",
     title: "Vibrant Tree Landscape Wall Art #LL 0409",
     price: "From $198.75",
     reviews: "33 reviews",
@@ -49,6 +56,7 @@ const products = [
       "/art/p07.jpg",
   },
   {
+    slug: "beige-minimalist-abstract-painting-avg-003",
     title: "Beige Minimalist Abstract Painting #AVG 003",
     price: "From $198.75",
     reviews: "36 reviews",
@@ -56,13 +64,15 @@ const products = [
       "/art/p08.jpg",
   },
   {
-    title: "Black & White Abstract Painting SET OF 2 #AVG 012",
-    price: "From $261.25",
+    slug: "black-minimalist-abstract-painting-avg-012",
+    title: "Black Minimalist Abstract Painting #AVG 012",
+    price: "From $233.75",
     reviews: "24 reviews",
     image:
       "/art/p09.jpg",
   },
   {
+    slug: "large-black-white-abstract-textured-canvas-art-bm-092",
     title: "Large Black & White Abstract Textured Canvas Art #BM 092",
     price: "From $198.75",
     reviews: "4 reviews",
@@ -70,6 +80,7 @@ const products = [
       "/art/p10.jpg",
   },
   {
+    slug: "black-white-abstract-painting-set-of-2-cxa-013",
     title: "Black & White Abstract Painting SET OF 2 #CXA 013",
     price: "From $261.25",
     reviews: "11 reviews",
@@ -77,6 +88,7 @@ const products = [
       "/art/p11.jpg",
   },
   {
+    slug: "blue-green-minimalist-abstract-painting-bgm-007",
     title: "Blue & Green Minimalist Abstract Painting #BGM 007",
     price: "From $198.75",
     reviews: "7 reviews",
@@ -240,7 +252,11 @@ export default function Home() {
         </div>
         <div className="product-grid">
           {products.map((product) => (
-            <article className="product-card" key={product.title}>
+            <a
+              className="product-card"
+              href={`/products/${product.slug}`}
+              key={product.title}
+            >
               <div className="product-image">
                 <img src={product.image} alt={product.title} />
               </div>
@@ -250,8 +266,9 @@ export default function Home() {
                   <strong>{product.price}</strong>
                   <span>{product.reviews}</span>
                 </div>
+                <span className="product-link">View product details</span>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </section>
