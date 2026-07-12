@@ -190,59 +190,59 @@ const translations = {
     "Answers for custom oil painting and wholesale artwork buyers": "Respuestas para compradores de oleos personalizados y al por mayor"
   },
   zh: {
-    "Hand-Painted Oil Paintings & Custom Canvas Art | Yuan Heart Art": "手绘油画与定制装饰画 | Yuan Heart Art",
-    "Contact | Yuan Heart Art Oil Art Trade": "联系我们 | Yuan Heart Art",
-    "Shop Hand-Painted Oil Paintings | Yuan Heart Art": "手绘油画作品 | Yuan Heart Art",
-    "Custom Oil Painting From Photo | Yuan Heart Art": "照片定制手绘油画 | Yuan Heart Art",
-    "FAQ | Custom Oil Paintings and Wholesale Art | Yuan Heart Art": "常见问题 | 定制油画与批发艺术品 | Yuan Heart Art",
-    "Home": "首页",
-    "Shop": "作品",
-    "Custom": "定制",
-    "Custom Painting": "定制油画",
-    "Wholesale": "批发",
-    "Process": "流程",
-    "About": "关于",
-    "Contact": "联系",
-    "Request Quote": "获取报价",
-    "Explore Artwork": "浏览作品",
-    "Start a Custom Painting": "开始定制油画",
-    "Send Your Brief": "发送需求",
-    "Contact Irist": "联系 Irist",
-    "View Shop": "查看作品",
-    "View Collection": "查看系列",
-    "Contact Us": "联系我们",
-    "Read Our Story": "了解我们",
-    "Read full FAQ": "查看完整 FAQ",
-    "Quick links": "快速链接",
-    "Contact details": "联系方式",
-    "Name": "姓名",
-    "Email": "邮箱",
-    "Phone": "电话",
-    "Message": "留言",
-    "Submit Brief": "提交需求",
-    "Your name": "您的姓名",
-    "Share artwork type, size, quantity, style references, target budget, and timing.": "请填写画作类型、尺寸、数量、风格参考、预算和时间要求。",
-    "Hand-painted oil paintings made by skilled artists": "由专业画师创作的手绘油画",
-    "Custom canvas art for refined interiors, galleries, and public spaces": "为高端家居、画廊与公共空间定制画作",
-    "Yuan Heart Art supplies hand-painted oil paintings, printed oil art, and custom artwork programs for Western home decor buyers, interior designers, museums, exhibition venues, hotels, and public art spaces.": "Yuan Heart Art 为欧美家装买家、室内设计师、博物馆、展览空间、酒店和公共艺术空间提供手绘油画、印刷油画与定制艺术方案。",
-    "Putian Oil Painting Association partner": "莆田市油画协会合作公司",
-    "Direct artist access": "一手画师资源",
-    "Custom sizes and colors": "尺寸与色彩可定制",
-    "Wholesale and project supply": "批发与项目供应",
-    "Core strengths": "核心优势",
-    "Art quality, trade reliability, and project clarity in one partner": "品质、交付与项目沟通兼具",
-    "Shop by style": "按风格浏览",
-    "Oil painting collections for Western interiors": "适合欧美空间的油画系列",
-    "Custom workflow": "定制流程",
-    "From reference image to finished canvas": "从参考图到完成画作",
-    "Wholesale and trade": "批发与贸易合作",
-    "Reliable art supply for designers, galleries, hotels, and decor brands": "为设计师、画廊、酒店和家居品牌提供稳定艺术品供应",
-    "Buyer questions": "买家问题",
-    "Quick answers before you request a quote": "报价前的常见解答",
-    "Tell us about your space, artwork brief, and sourcing goals": "告诉我们您的空间、画作需求和采购目标",
-    "Hand-painted oil paintings and custom-ready canvas art": "手绘油画与可定制画作",
-    "Custom oil paintings from photos, references, and room concepts": "根据照片、参考图和空间概念定制油画",
-    "Answers for custom oil painting and wholesale artwork buyers": "定制油画与批发采购常见问题"
+    "Hand-Painted Oil Paintings & Custom Canvas Art | Yuan Heart Art": "鎵嬬粯娌圭敾涓庡畾鍒惰楗扮敾 | Yuan Heart Art",
+    "Contact | Yuan Heart Art Oil Art Trade": "鑱旂郴鎴戜滑 | Yuan Heart Art",
+    "Shop Hand-Painted Oil Paintings | Yuan Heart Art": "鎵嬬粯娌圭敾浣滃搧 | Yuan Heart Art",
+    "Custom Oil Painting From Photo | Yuan Heart Art": "鐓х墖瀹氬埗鎵嬬粯娌圭敾 | Yuan Heart Art",
+    "FAQ | Custom Oil Paintings and Wholesale Art | Yuan Heart Art": "甯歌闂 | 瀹氬埗娌圭敾涓庢壒鍙戣壓鏈搧 | Yuan Heart Art",
+    "Home": "棣栭〉",
+    "Shop": "浣滃搧",
+    "Custom": "瀹氬埗",
+    "Custom Painting": "瀹氬埗娌圭敾",
+    "Wholesale": "鎵瑰彂",
+    "Process": "娴佺▼",
+    "About": "鍏充簬",
+    "Contact": "鑱旂郴",
+    "Request Quote": "鑾峰彇鎶ヤ环",
+    "Explore Artwork": "娴忚浣滃搧",
+    "Start a Custom Painting": "寮€濮嬪畾鍒舵补鐢?,
+    "Send Your Brief": "鍙戦€侀渶姹?,
+    "Contact Irist": "鑱旂郴 Irist",
+    "View Shop": "鏌ョ湅浣滃搧",
+    "View Collection": "鏌ョ湅绯诲垪",
+    "Contact Us": "鑱旂郴鎴戜滑",
+    "Read Our Story": "浜嗚В鎴戜滑",
+    "Read full FAQ": "鏌ョ湅瀹屾暣 FAQ",
+    "Quick links": "蹇€熼摼鎺?,
+    "Contact details": "鑱旂郴鏂瑰紡",
+    "Name": "濮撳悕",
+    "Email": "閭",
+    "Phone": "鐢佃瘽",
+    "Message": "鐣欒█",
+    "Submit Brief": "鎻愪氦闇€姹?,
+    "Your name": "鎮ㄧ殑濮撳悕",
+    "Share artwork type, size, quantity, style references, target budget, and timing.": "璇峰～鍐欑敾浣滅被鍨嬨€佸昂瀵搞€佹暟閲忋€侀鏍煎弬鑰冦€侀绠楀拰鏃堕棿瑕佹眰銆?,
+    "Hand-painted oil paintings made by skilled artists": "鐢变笓涓氱敾甯堝垱浣滅殑鎵嬬粯娌圭敾",
+    "Custom canvas art for refined interiors, galleries, and public spaces": "涓洪珮绔灞呫€佺敾寤婁笌鍏叡绌洪棿瀹氬埗鐢讳綔",
+    "Yuan Heart Art supplies hand-painted oil paintings, printed oil art, and custom artwork programs for Western home decor buyers, interior designers, museums, exhibition venues, hotels, and public art spaces.": "Yuan Heart Art 涓烘缇庡瑁呬拱瀹躲€佸鍐呰璁″笀銆佸崥鐗╅銆佸睍瑙堢┖闂淬€侀厭搴楀拰鍏叡鑹烘湳绌洪棿鎻愪緵鎵嬬粯娌圭敾銆佸嵃鍒锋补鐢讳笌瀹氬埗鑹烘湳鏂规銆?,
+    "Putian Oil Painting Association partner": "鑾嗙敯甯傛补鐢诲崗浼氬悎浣滃叕鍙?,
+    "Direct artist access": "涓€鎵嬬敾甯堣祫婧?,
+    "Custom sizes and colors": "灏哄涓庤壊褰╁彲瀹氬埗",
+    "Wholesale and project supply": "鎵瑰彂涓庨」鐩緵搴?,
+    "Core strengths": "鏍稿績浼樺娍",
+    "Art quality, trade reliability, and project clarity in one partner": "鍝佽川銆佷氦浠樹笌椤圭洰娌熼€氬吋鍏?,
+    "Shop by style": "鎸夐鏍兼祻瑙?,
+    "Oil painting collections for Western interiors": "閫傚悎娆х編绌洪棿鐨勬补鐢荤郴鍒?,
+    "Custom workflow": "瀹氬埗娴佺▼",
+    "From reference image to finished canvas": "浠庡弬鑰冨浘鍒板畬鎴愮敾浣?,
+    "Wholesale and trade": "鎵瑰彂涓庤锤鏄撳悎浣?,
+    "Reliable art supply for designers, galleries, hotels, and decor brands": "涓鸿璁″笀銆佺敾寤娿€侀厭搴楀拰瀹跺眳鍝佺墝鎻愪緵绋冲畾鑹烘湳鍝佷緵搴?,
+    "Buyer questions": "涔板闂",
+    "Quick answers before you request a quote": "鎶ヤ环鍓嶇殑甯歌瑙ｇ瓟",
+    "Tell us about your space, artwork brief, and sourcing goals": "鍛婅瘔鎴戜滑鎮ㄧ殑绌洪棿銆佺敾浣滈渶姹傚拰閲囪喘鐩爣",
+    "Hand-painted oil paintings and custom-ready canvas art": "鎵嬬粯娌圭敾涓庡彲瀹氬埗鐢讳綔",
+    "Custom oil paintings from photos, references, and room concepts": "鏍规嵁鐓х墖銆佸弬鑰冨浘鍜岀┖闂存蹇靛畾鍒舵补鐢?,
+    "Answers for custom oil painting and wholesale artwork buyers": "瀹氬埗娌圭敾涓庢壒鍙戦噰璐父瑙侀棶棰?
   }
 };
 
@@ -644,7 +644,7 @@ function renderProductGrid() {
   grid.innerHTML = matches.length ? matches.map((product) => {
     const saved = wishlist.includes(product.id);
     return `<article class="product-card" data-category="${product.status}">
-      <button class="wishlist-toggle ${saved ? "saved" : ""}" type="button" data-wishlist="${product.id}" aria-label="Save ${product.name}">${saved ? "♥" : "♡"}</button>
+      <button class="wishlist-toggle ${saved ? "saved" : ""}" type="button" data-wishlist="${product.id}" aria-label="Save ${product.name}">${saved ? "鈾? : "鈾?}</button>
       <img src="${product.image}" alt="${product.name} shown for ${product.room}" loading="lazy">
       <div>
         <span>${product.badge}</span>
@@ -673,7 +673,7 @@ function openQuickView(productId) {
     document.body.appendChild(modal);
   }
   modal.innerHTML = `<div class="commerce-modal">
-    <button class="modal-close" type="button" aria-label="Close">×</button>
+    <button class="modal-close" type="button" aria-label="Close">脳</button>
     <div class="quick-view-grid">
       <img src="${product.image}" alt="${product.name} room and texture preview">
       <div>
@@ -699,7 +699,7 @@ function injectCommerceTools() {
     document.querySelectorAll(".site-header").forEach((header) => {
       const tools = document.createElement("div");
       tools.className = "header-tools";
-      tools.innerHTML = `<button class="icon-action" type="button" data-search-open aria-label="Search">⌕</button><a class="icon-action" href="cart.html" aria-label="Cart">Bag<span class="cart-count" data-cart-count>0</span></a>`;
+      tools.innerHTML = `<button class="icon-action" type="button" data-search-open aria-label="Search">鈱?/button><a class="icon-action" href="cart.html" aria-label="Cart">Bag<span class="cart-count" data-cart-count>0</span></a>`;
       const lang = header.querySelector(".language-switcher");
       if (lang) header.insertBefore(tools, lang);
     });
@@ -724,14 +724,14 @@ function openSearch() {
     overlay.className = "search-backdrop";
     document.body.appendChild(overlay);
   }
-  overlay.innerHTML = `<div class="search-modal"><button class="modal-close" type="button" aria-label="Close">×</button><h2>Find art by style, color, room or SKU</h2><label class="sr-only" for="site-search">Search</label><input id="site-search" type="search" placeholder="blue abstract, large neutral painting, hotel wall art"><div class="search-results"></div></div>`;
+  overlay.innerHTML = `<div class="search-modal"><button class="modal-close" type="button" aria-label="Close">脳</button><h2>Find art by style, color, room or SKU</h2><label class="sr-only" for="site-search">Search</label><input id="site-search" type="search" placeholder="blue abstract, large neutral painting, hotel wall art"><div class="search-results"></div></div>`;
   overlay.classList.add("open");
   const input = overlay.querySelector("#site-search");
   const results = overlay.querySelector(".search-results");
   function render() {
     const q = input.value.toLowerCase();
     const list = YH_PRODUCTS.filter((product) => [product.id, product.name, product.style, product.color, product.room, product.status].join(" ").toLowerCase().includes(q)).slice(0, 6);
-    results.innerHTML = q && list.length ? list.map((product) => `<a class="search-result" href="shop.html?q=${encodeURIComponent(q)}"><strong>${product.name}</strong><p>${product.style} · ${product.color} · ${money(product.price)}</p></a>`).join("") : `<div class="search-result"><strong>Popular searches</strong><p>large neutral painting, textured oil painting, ready to ship, hotel wall art, custom portrait</p></div>`;
+    results.innerHTML = q && list.length ? list.map((product) => `<a class="search-result" href="shop.html?q=${encodeURIComponent(q)}"><strong>${product.name}</strong><p>${product.style} 路 ${product.color} 路 ${money(product.price)}</p></a>`).join("") : `<div class="search-result"><strong>Popular searches</strong><p>large neutral painting, textured oil painting, ready to ship, hotel wall art, custom portrait</p></div>`;
   }
   input.addEventListener("input", render);
   input.focus();
@@ -753,7 +753,7 @@ function renderCart() {
     total += product.price * line.qty;
     return `<article class="cart-line">
       <img src="${product.image}" alt="${product.name}">
-      <div><h2>${product.name}</h2><p>${line.size} · ${product.status}</p><p>${product.production}; ${product.shipping}</p><p class="product-price">${product.price ? `$${product.price * line.qty}` : "Quoted by project"}</p><button type="button" data-remove-cart="${index}">Remove</button></div>
+      <div><h2>${product.name}</h2><p>${line.size} / ${product.status}</p><p>${product.production}; ${product.shipping}</p><p class="product-price">${product.price ? `$${product.price * line.qty}` : "Quoted by project"}</p><button type="button" data-remove-cart="${index}">Remove</button></div>
     </article>`;
   }).join("");
   document.querySelectorAll("[data-cart-total]").forEach((node) => {
@@ -769,15 +769,29 @@ function renderCheckout() {
     event.preventDefault();
     const orderId = `YH-${Date.now().toString().slice(-6)}`;
     const formData = new FormData(form);
+    const cart = getCart();
+    const cartSummary = cart.map((line) => {
+      const product = productById(line.productId);
+      return product ? `${product.name} (${line.size}, qty ${line.qty})` : "";
+    }).filter(Boolean).join("; ") || "No cart item selected yet";
+    const cartValue = cart.reduce((sum, line) => {
+      const product = productById(line.productId);
+      return sum + (product ? product.price * line.qty : 0);
+    }, 0);
+    const paymentMethod = formData.get("paymentMethod");
+    const paymentPlan = formData.get("paymentPlan");
     storage.set("yh-last-order", {
       orderId,
       name: formData.get("firstName"),
       email: formData.get("email"),
       country: formData.get("country"),
+      paymentMethod,
+      paymentPlan,
       status: "Order received"
     });
-    trackEvent("begin_checkout", { order_id: orderId });
-    const message = `New checkout request ${orderId}. Name: ${formData.get("firstName")} ${formData.get("lastName")}. Country: ${formData.get("country")}. Please send secure invoice/payment link.`;
+    trackEvent("begin_checkout", { order_id: orderId, payment_method: paymentMethod, payment_plan: paymentPlan, value: cartValue, currency: "USD" });
+    trackEvent("payment_method_selected", { order_id: orderId, payment_method: paymentMethod, payment_plan: paymentPlan });
+    const message = `New checkout request ${orderId}. Name: ${formData.get("firstName")} ${formData.get("lastName")}. Email: ${formData.get("email")}. Phone: ${formData.get("phone") || "not provided"}. Country: ${formData.get("country")}. Payment plan: ${paymentPlan}. Preferred payment: ${paymentMethod}. Cart: ${cartSummary}. Subtotal before shipping/tax: ${cartValue ? `$${cartValue}` : "quote needed"}. Coupon: ${formData.get("coupon") || "none"}. Please confirm delivery cost and send the secure payment instruction.`;
     window.location.href = whatsappUrl(message, "checkout");
   });
 }
