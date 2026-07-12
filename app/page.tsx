@@ -372,7 +372,7 @@ export default function Home() {
         </div>
         <div>
           <h3>Contact</h3>
-          <p>Email: info@yuanheartart.com</p>
+          <p>Email: yancherry931@gmail.com</p>
           <p>WhatsApp: +86 134 8094 7630</p>
           <p>Tel: +86 134 8094 7630</p>
         </div>
