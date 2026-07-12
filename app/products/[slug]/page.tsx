@@ -295,7 +295,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div>
           <h3>Contact</h3>
           <p>Email: yancherry931@gmail.com</p>
-          <p>WhatsApp: +86 134 8094 7630</p>
+          <p>WhatsApp: +86 18235608457</p>
           <p>Tel: +86 134 8094 7630</p>
         </div>
         <div>
