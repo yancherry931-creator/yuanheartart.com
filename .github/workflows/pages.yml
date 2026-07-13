@@ -24,6 +24,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+      - name: Download artwork assets
+        run: |
+          mkdir -p public/art
+          for file in artist.jpg popular.png p01.jpg p02.jpg p03.jpg p04.jpg p05.jpg p06.jpg p07.jpg p08.jpg p09.jpg p10.jpg p11.jpg p12.jpg r01.jpg r02.jpg r03.jpg r04.jpg; do
+            curl -fsSL "https://yuanheartart.yancherry931.chatgpt.site/art/$file" -o "public/art/$file"
+          done
+      - name: Build static export
+        run: pnpm run build:pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -31,7 +50,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
