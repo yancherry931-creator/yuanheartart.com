@@ -210,16 +210,33 @@ h3 {
   min-height: 560px;
 }
 
-.hero-gallery img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.hero-gallery a {
+  position: relative;
+  overflow: hidden;
   border: 1px solid rgba(29, 27, 24, 0.12);
   background: #eee7dc;
 }
 
-.hero-gallery img:first-child {
+.hero-gallery a:first-child {
   grid-row: span 2;
+}
+
+.hero-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-gallery span {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(29, 27, 24, 0.78);
+  color: #fffaf0;
+  padding: 7px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .section {
@@ -299,6 +316,14 @@ h3 {
   padding: 16px;
 }
 
+.product-info p {
+  margin: 0;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
 .product-info div,
 .review-meta {
   display: flex;
@@ -332,6 +357,20 @@ h3 {
   object-fit: cover;
   border: 1px solid var(--line);
   background: #eee7dc;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  color: var(--teal);
+  font-weight: 700;
 }
 
 .source-note,
@@ -398,6 +437,21 @@ h3 {
   width: fit-content;
 }
 
+.mini-specs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.mini-specs span {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 12px;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .product-section {
   padding: clamp(54px, 7vw, 98px) clamp(18px, 5vw, 72px);
   border-top: 1px solid var(--line);
@@ -412,7 +466,8 @@ h3 {
 
 .detail-grid,
 .options-grid,
-.source-grid {
+.source-grid,
+.buyer-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
@@ -420,6 +475,7 @@ h3 {
 
 .detail-grid article,
 .options-grid article,
+.buyer-grid article,
 .faq-list details {
   border: 1px solid var(--line);
   background: #fbfaf6;
@@ -427,12 +483,14 @@ h3 {
 }
 
 .detail-grid h3,
-.options-grid h3 {
+.options-grid h3,
+.buyer-grid h3 {
   margin-top: 0;
 }
 
 .detail-grid p,
 .options-grid p,
+.buyer-grid p,
 .two-column-copy p,
 .styling-list p,
 .faq-list p {
@@ -520,6 +578,50 @@ h3 {
   padding: 14px;
   overflow-wrap: anywhere;
   line-height: 1.5;
+}
+
+.buyer-section {
+  background: #f0ebe3;
+}
+
+.buyer-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.studio-band {
+  display: grid;
+  grid-template-columns: minmax(420px, 1fr) minmax(0, 0.78fr);
+  gap: clamp(28px, 5vw, 68px);
+  align-items: center;
+  padding: clamp(54px, 7vw, 98px) clamp(18px, 5vw, 72px);
+  background: var(--ink);
+  color: #fff;
+}
+
+.studio-band img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #eee7dc;
+}
+
+.studio-band p,
+.studio-band .eyebrow {
+  color: #e6d8c7;
+}
+
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.stat-row span {
+  border: 1px solid rgba(255, 250, 240, 0.24);
+  padding: 10px 12px;
+  color: #fffaf0;
+  font-size: 13px;
 }
 
 .popular {
@@ -709,6 +811,7 @@ h3 {
 
   .hero,
   .popular,
+  .studio-band,
   .story,
   .product-hero,
   .two-column-copy,
@@ -730,6 +833,7 @@ h3 {
   .review-grid,
   .detail-grid,
   .options-grid,
+  .buyer-grid,
   .facts-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -769,7 +873,7 @@ h3 {
     aspect-ratio: 4 / 3;
   }
 
-  .hero-gallery img:first-child {
+  .hero-gallery a:first-child {
     grid-row: auto;
   }
 
@@ -777,6 +881,7 @@ h3 {
   .review-grid,
   .detail-grid,
   .options-grid,
+  .buyer-grid,
   .facts-list,
   .source-grid,
   .service-bar,
@@ -790,6 +895,10 @@ h3 {
 
   .product-buy-panel h1 {
     font-size: 38px;
+  }
+
+  .mini-specs {
+    grid-template-columns: 1fr;
   }
 
   .newsletter div {

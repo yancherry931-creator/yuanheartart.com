@@ -71,12 +71,49 @@ export default async function ProductPage({ params }: ProductPageProps) {
       url: `https://yuanheartart.com/products/${product.slug}`,
     },
   };
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Is this artwork handmade?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Yes. The artwork is made to order on high-quality linen canvas with professional oil or acrylic paints.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can I order a custom size?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Yes. Custom sizing is available by email or WhatsApp for buyers who need a specific wall fit.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How is the artwork shipped?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Rolled canvas is shipped in a hard paper tube. Framed artwork is shipped in a wooden box. Global shipping is generally handled by FedEx or DHL.",
+        },
+      },
+    ],
+  };
 
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       <div className="notice">
@@ -90,7 +127,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         </a>
         <nav aria-label="Product navigation">
           <a href="/">Home</a>
-          <a href="/#bestsellers">Bestsellers</a>
+          <a href="/#collection">Collection</a>
           <a href="#details">Artwork Details</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -101,6 +138,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       <section className="product-hero">
         <div className="product-gallery-panel">
+          <div className="breadcrumb">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/#collection">Collection</a>
+            <span>/</span>
+            <span>{product.sku}</span>
+          </div>
           <img src={product.image} alt={product.imageAlt} />
           <div className="source-note">
             <span>{product.imageCount} source images on original listing</span>
@@ -135,6 +179,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <a className="primary-button product-cta" href="#contact">
             Request this artwork
           </a>
+          <div className="mini-specs" aria-label="Quick product facts">
+            {product.highlights.map((highlight) => (
+              <span key={highlight}>{highlight}</span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -210,6 +259,33 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 <li key={option}>{option}</li>
               ))}
             </ul>
+          </article>
+        </div>
+      </section>
+
+      <section className="product-section buyer-section">
+        <div>
+          <p className="eyebrow">Buyer Decision Guide</p>
+          <h2>Who should choose this piece</h2>
+        </div>
+        <div className="buyer-grid">
+          <article>
+            <h3>Choose it when</h3>
+            <p>{product.bestFor}</p>
+          </article>
+          <article>
+            <h3>Check before ordering</h3>
+            <p>
+              Confirm wall width, preferred frame color, and whether the artwork
+              should arrive rolled or ready to hang.
+            </p>
+          </article>
+          <article>
+            <h3>Best contact method</h3>
+            <p>
+              Send the SKU {product.sku}, desired size, and room photo to
+              yancherry931@gmail.com or WhatsApp +86 18235608457.
+            </p>
           </article>
         </div>
       </section>
@@ -296,16 +372,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <h3>Contact</h3>
           <p>Email: yancherry931@gmail.com</p>
           <p>WhatsApp: +86 18235608457</p>
-          <p>Tel: +86 134 8094 7630</p>
         </div>
         <div>
           <h3>Explore</h3>
           <a href="/">Home</a>
-          <a href="/#bestsellers">Bestsellers</a>
+          <a href="/#collection">Collection</a>
           <a href="#details">Artwork Details</a>
           <a href="#faq">FAQ</a>
         </div>
-        <p className="copyright">© 2026 - yuanheartart</p>
+        <p className="copyright">(c) 2026 yuanheartart</p>
       </footer>
     </main>
   );
